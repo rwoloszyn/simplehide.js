@@ -1,0 +1,39 @@
+{
+  "name": "simplehide-js",
+  "version": "1.0.0",
+  "description": "A lightweight jQuery plugin for collapsing and expanding long blocks of text with \"Read more\" and \"Close\" links.",
+  "main": "simplehide.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/gulp/bin/gulp.js compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwoloszyn/simplehide.js.git"
+  },
+  "keywords": [
+    "css",
+    "jquery",
+    "readmore",
+    "expand",
+    "collapse",
+    "hide",
+    "show",
+    "toggle"
+  ],
+  "author": "Rafal Woloszyn <woloszyn.rafal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwoloszyn/simplehide.js/issues"
+  },
+  "homepage": "https://github.com/rwoloszyn/simplehide.js",
+  "dependencies": {
+    "jquery": ">2.1.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

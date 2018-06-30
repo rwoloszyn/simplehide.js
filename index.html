@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Example JQuery plugin development</title>
+  <meta name="description" content="JQuery plugin develpment setup">
+  <meta name="author" content="Rafal Woloszyn <woloszyn.rafal@gmail.com>">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div id="firstExampleId">
+    Object ID text example.
+</div>
+
+<div id="secondExampleId">
+    Second Object ID text example.
+</div>
+
+<customhtmltag>
+    Custom html tag test.
+</customhtmltag>
+
+
+<div class="classExample">
+    Class example.
+</div>
+
+
+<div class="multipleClass">
+    Same class example text 1.
+</div>
+
+<div class="multipleClass">
+    Same class example text 2.
+</div>
+
+<div class="optionTestClass">
+    Changed link text example.
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+<script src="simplehide.js"></script>
+
+<script>
+    $('#firstId').simplehide();
+    $('#secondId').simplehide();
+
+    $('customhtmltag').simplehide();
+
+    $('.classTest').simplehide();
+
+    $('.multipleClass').simplehide();
+
+    $('.optionTestClass').simplehide({
+        showLink: '<a href="#">Changed link...</a>'
+    });
+</script>
+
+</body>
+</html>  
