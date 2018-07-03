@@ -1,5 +1,2 @@
 # 1.0.0
-
-## Initial release
-
-- Test
+- Initial release
