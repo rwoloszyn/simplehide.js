@@ -4,9 +4,10 @@
  * SimpleHide jQuery Plugin
  * Author: @rwoloszyn
  * Project home: https://github.com/rwoloszyn/simplehide.js
+ * Version: 1.0.0
  * Licensed under the MIT license
+ * 
  *
- * Debounce function from http://davidwalsh.name/javascript-debounce-function
  * Some config taken from http://jedfoster.github.io/Readmore.js
  * and official gulp, livereload and VS Code official documentations.
  */
