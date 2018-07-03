@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rwoloszyn/simplehide.js.svg?branch=master)](https://travis-ci.org/rwoloszyn/simplehide.js)
+
 # simplehide.js plugin development template 
 It's lightweight and supe siple  JQuery plugin for showing/hiding any HTML dom elements where [jquery.hide()](http://api.jquery.com/hide/).
 
