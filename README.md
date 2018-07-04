@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/rwoloszyn/simplehide.js.svg?branch=master)](https://travis-ci.org/rwoloszyn/simplehide.js)
 
 # simplehide.js plugin development template 
-It's lightweight and supe siple  JQuery plugin for showing/hiding any HTML dom elements where [jquery.hide()](http://api.jquery.com/hide/).
+It's lightweight and super simple JQuery plugin for showing/hiding any HTML DOM elements using [jquery.hide()](http://api.jquery.com/hide/) function.
 
 # DEMO
 [HERE](https://jsfiddle.net/wrafal/jb1kxf5z/19/)
@@ -12,7 +12,7 @@ It's lightweight and supe siple  JQuery plugin for showing/hiding any HTML dom e
 Install ***simplehide.js*** with npm:
 
 ```
-$ npm install
+$ npm install simplehide-js
 ```
 Then include it in your HTML:
 ```
@@ -33,7 +33,7 @@ $('customHTMLTag').simplehide();
 $('.customClass').simplehide();
 ```
 As I mentioned is super simple. Now those elements will be hidden and (by default) ***Show....*** link will
-be displaye instead.  You can change link text by calling ***simplehide()*** with some options
+be displayed instead.  You can change link text by calling ***simplehide()*** with options:
 ```
 $('#someIndex').simplehide({
   lessLink: 'showLink: '<a href="#">Versions...</a>''
