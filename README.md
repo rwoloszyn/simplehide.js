@@ -36,7 +36,7 @@ As I mentioned is super simple. Now those elements will be hidden and (by defaul
 be displayed instead.  You can change link text by calling ***simplehide()*** with options:
 ```
 $('#someIndex').simplehide({
-  lessLink: 'showLink: '<a href="#">Versions...</a>''
+  showLink: '<a href="#">Versions...</a>'
 });
 
 ```
